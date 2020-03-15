@@ -23,7 +23,7 @@
 
 
 <script>
-    import TodoList from '@/components/TodoList';
+    import TodoList from '@/components/Todolist';
     import addTodo from '@/components/addTodo';
     import Loader from '@/components/Loader';
     export default {
@@ -49,7 +49,7 @@
             this.loading = false;
         },
         components: {
-            TodoList, addTodo, Loader
+             addTodo, Loader, TodoList
         },
         computed: {
           filteredTodos() {

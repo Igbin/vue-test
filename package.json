@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.4.3",
+    "express": "^4.17.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -22,5 +23,18 @@
     "eslint-plugin-vue": "^5.0.0",
     "prettier": "^1.19.1",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igbin/vue-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igbin/vue-test/issues"
+  },
+  "homepage": "https://github.com/Igbin/vue-test#readme",
+  "keywords": []
 }
